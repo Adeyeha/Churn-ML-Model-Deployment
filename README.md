@@ -15,7 +15,7 @@ This project is a demonstration of deploying a churn prediction machine learning
 Clone the repository and navigate to the directory.
 
 ``` sh
-git clone https://github.com/<repo-url>.git
+git clone https://github.com/Adeyeha/Churn-ML-Model-Deployment.git
 cd <repo-directory>
 ```
 Build the Docker image:
