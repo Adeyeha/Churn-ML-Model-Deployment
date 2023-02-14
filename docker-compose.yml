@@ -1,0 +1,14 @@
+version: "3.9"
+   
+services:
+  fastapi:
+    build: 
+        context: .
+    command: uvicorn main:app --reload --port 80 --host 172.16.1.70 --log-level info --ssl-keyfile=./certs/key.pem --ssl-certfile=./certs/cert.pem
+    restart: always
+    volumes:
+      - .:c:/code
+    ports:
+      - "80:80"
+    env_file:
+      - config.env
