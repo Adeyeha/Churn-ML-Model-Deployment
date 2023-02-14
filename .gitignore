@@ -132,6 +132,7 @@ dmypy.json
 *.csv
 
 # Zipped Files
-*.zip
+
+# *.zip
 
 instantclient_21_3/
